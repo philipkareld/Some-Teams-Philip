@@ -9,11 +9,13 @@
 </head>
 
 <body>
-    <header>
-        <h1>Some Teams</h1>
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="about.php">About me</a>
-        </nav>
-    </header>
+    <div class="sticky">
+        <header>
+            <h1>Some Teams</h1>
+            <nav>
+                <a class="button" href="index.php">Home</a>
+                <a class="button" href="about.php">About me</a>
+            </nav>
+        </header>
+    </div>
 </body>
