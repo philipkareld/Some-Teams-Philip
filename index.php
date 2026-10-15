@@ -9,16 +9,19 @@ require 'data.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Some Teams</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Europa Cup 2026/27</h1>
-    <ul>
+    <div class="cards">
         <?php foreach ($teams as $name => $info): ?>
-            <li> <?= $name ?>
+            <div class="card">
+                <p>
+                    <?= $name ?>
+                </p>
                 <img src="<?= ($info['logo_uefa']) ?>" alt="">
-            </li>
+            </div>
         <?php endforeach; ?>
-    </ul>
+    </div>
 </body>
