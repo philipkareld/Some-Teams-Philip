@@ -11,5 +11,5 @@ require 'header.php';
     <link rel="stylesheet" href="style.css">
 </head>
 
-<h2>Om mig</h2>
-<p>Hej! Jag heter Philip Kareld och jag studerar webbutveckling på Yrgo. Jag är 27 år gammal och bor i Falkenberg.</p>
+<h2>About me</h2>
+<p>Hi! My name is Philip Kareld and I study web development at Yrgo. I'm 27 years old and live in Falkenberg.</p>
